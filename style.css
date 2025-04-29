@@ -64,3 +64,14 @@
   
   }
   
+
+
+  @keyframes move {
+    0% {
+      transform: translateX(-50%) ; /* Start from below */
+    }
+    100% {
+      transform: translateX(50%); /* Move to above */
+    }
+  }
+  
