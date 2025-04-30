@@ -130,6 +130,17 @@
     height:60px;
   
   }
-    
+  #nav h1{
+    font-size: 10px;
+    color:#ffffff;
+  }
+  @keyframes moveText {
+    0% {
+      transform: translateY(-100%) rotate(90deg); /* Start from below */
+    }
+    100% {
+      transform: translateY(100%) rotate(90deg); /* Move to above */
+    }
+  }    
 
 }
