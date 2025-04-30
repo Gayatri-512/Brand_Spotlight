@@ -93,4 +93,14 @@
     width:100%;
     background-color: rgba(169, 132, 132, 0.501);
 }
-  
+#vertical-text{
+  position: absolute;
+  top:45%;
+  right:-17%;
+  /* z-index:5; */
+  /* top:7%; */
+  /* transform-origin: 0% 0%; */
+/* 
+  width:100%;
+   background-color: brown; */
+}
