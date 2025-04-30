@@ -113,5 +113,8 @@
   color:transparent;
   letter-spacing: 15px;
   transform: rotate(90deg);
+  text-transform: uppercase ;
+  animation: moveText 2s linear infinite;
+
 
 }
