@@ -75,3 +75,33 @@
     }
   }
   
+  #small-img{
+    height:400px;
+    width:300px;
+    position: absolute;
+    background-color: brown;
+    top:70%;
+    right: 3%;
+    transform: translate(0,-50%);
+    background-image: url(https://images.unsplash.com/photo-1526510747491-58f928ec870f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1vZGVsfGVufDB8fDB8fHww) ;
+    background-position: center;
+    background-size: cover;
+  }
+  #overlay-in{
+  
+      height:100%;
+      width:100%;
+      background-color: rgba(169, 132, 132, 0.501);
+  }
+  #vertical-text{
+      position: absolute;
+      top:45%;
+      right:-17%;
+      /* z-index:5; */
+      /* top:7%; */
+      /* transform-origin: 0% 0%; */
+  /* 
+      width:100%;
+       background-color: brown; */
+  }
+  
