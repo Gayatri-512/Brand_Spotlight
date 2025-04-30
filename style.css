@@ -118,4 +118,15 @@
     
    
   }
-    
+  #nav{
+    position:absolute;
+    width:350px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    left:12%;
+    top:5%;
+  }
+  
+      
