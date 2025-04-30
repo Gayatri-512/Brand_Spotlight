@@ -104,3 +104,11 @@
   width:100%;
    background-color: brown; */
 }
+#vertical-text>h1{
+  font-size:70px;
+  font-weight: 900;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-text-stroke-width:2px ;
+  -webkit-text-stroke-color: #ffffff;
+  color:transparent;
+}
