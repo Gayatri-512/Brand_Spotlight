@@ -111,4 +111,7 @@
   -webkit-text-stroke-width:2px ;
   -webkit-text-stroke-color: #ffffff;
   color:transparent;
+  letter-spacing: 15px;
+  transform: rotate(90deg);
+
 }
