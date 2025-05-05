@@ -12,3 +12,18 @@ html, body {
   color: #fff;
   overflow: hidden;
 }
+
+/* Glitter Animation */
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-image: url('https://cdn.dribbble.com/userupload/23624649/file/original-724a99225a43d4feee4d478b7dad5d7f.gif');
+  background-repeat: repeat;
+  opacity: 0.1;
+  z-index: 999;
+}
