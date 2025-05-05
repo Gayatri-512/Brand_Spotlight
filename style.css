@@ -65,3 +65,13 @@ body::after {
     opacity: 1;
   }
 }
+
+@keyframes shimmer {
+  0% {
+    background-position: -500px 0;
+  }
+  100% {
+    background-position: 500px 0;
+  }
+}
+
