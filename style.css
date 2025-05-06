@@ -103,3 +103,15 @@ body::after {
   font-weight: 600;
   animation: float 3s ease-in-out infinite;
 }
+/* Hero Section */
+#hero {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 60px;
+  overflow: hidden;
+  background: linear-gradient(to right, #ffccff20, #ffcce520);
+  border-radius: 30px;
+  box-shadow: 0 0 20px #ff99cc88;
+}
