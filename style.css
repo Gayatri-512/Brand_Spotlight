@@ -142,3 +142,8 @@ body::after {
   letter-spacing: 2px;
   color: #aaa;
 }
+.content h2:hover {
+  text-shadow: 0 0 10px #ff99cc, 0 0 20px #ff66cc;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
