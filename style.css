@@ -124,3 +124,21 @@ body::after {
   animation: fadeInUp 1.2s ease-out forwards;
   opacity: 0;
 }
+
+.content h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+  text-transform: uppercase;
+  line-height: 1.1;
+  background: linear-gradient(90deg, #ff99cc, #ffffff, #ff99cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: shimmer 2s linear infinite;
+  margin-bottom: 10px;
+}
+.content p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #aaa;
+}
