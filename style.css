@@ -92,3 +92,14 @@ body::after {
   gap: 20px;
   animation: fadeInTop 1s ease-out forwards;
 }
+#nav img {
+  height: 50px;
+  animation: float 3s ease-in-out infinite;
+}
+#nav h1 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #f1f1f1;
+  font-weight: 600;
+  animation: float 3s ease-in-out infinite;
+}
