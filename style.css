@@ -84,3 +84,11 @@ body::after {
   position: relative;
 }
 
+/* Navbar */
+#nav {
+  display: flex;
+  align-items: center;
+  padding: 20px 50px;
+  gap: 20px;
+  animation: fadeInTop 1s ease-out forwards;
+}
