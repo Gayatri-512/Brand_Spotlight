@@ -160,3 +160,15 @@ body::after {
   opacity: 1;
   transition: all 0.3s ease;
 }
+.side-image:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 30px #ff99ccaa;
+}
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom right, rgba(0,0,0,0.3), rgba(0,0,0,0.6));
+}
